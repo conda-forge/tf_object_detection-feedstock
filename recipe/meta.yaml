@@ -1,5 +1,5 @@
 {% set name = "tf_object_detection" %}
-{% set version = "0.01" %}
+{% set version = "2.1.0" %}
 
 package:
   name: {{ name|lower }}
