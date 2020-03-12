@@ -9,7 +9,7 @@ source:
   sha256: 9e762d306888b2bf611a45153a30062d2f40f3afa677df9a6e93efe7bd483832
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]  # Skip all windows for now due to numpy/scipy version pinning issues
 
 
@@ -55,3 +55,5 @@ about:
 extra:
   recipe-maintainers:
     - adbeda
+    - oblute
+    - rluria14
