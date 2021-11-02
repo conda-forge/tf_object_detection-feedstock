@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/tensorflow/models/tree/master/research/object_detection
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   summary: 'As an open source framework to to construct, train and deploy object detection models'
 
