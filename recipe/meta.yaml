@@ -1,5 +1,5 @@
 {% set name = "tf_object_detection" %}
-{% set version = "2.1.0" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
@@ -9,7 +9,7 @@ source:
   sha256: 9e762d306888b2bf611a45153a30062d2f40f3afa677df9a6e93efe7bd483832
 
 build:
-  number: 2
+  number: 0
   skip: True  # [win]  # Skip all windows for now due to numpy/scipy version pinning issues
 
 
@@ -42,7 +42,7 @@ test:
 
 about:
   home: https://github.com/tensorflow/models/tree/master/research/object_detection
-  license: Apache 2.0
+  license: Apache-2.0
   license_file: LICENSE
   summary: 'As an open source framework to to construct, train and deploy object detection models'
 
@@ -56,5 +56,4 @@ extra:
   recipe-maintainers:
     - mxr-conda
     - adbeda
-    - oblute
-    - rluria14
+    - dsangillo
