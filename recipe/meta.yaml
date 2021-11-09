@@ -1,5 +1,5 @@
-# {% set name = "tf_object_detection" %}
-{% set name = "tf_models_official" %}
+{% set name = "tf_object_detection" %}
+# {% set name = "tf_models_official" %}
 {% set version = "2.6.0" %}
 
 package:
