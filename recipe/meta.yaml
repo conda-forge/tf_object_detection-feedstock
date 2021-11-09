@@ -12,7 +12,7 @@ source:
   sha256: 95454a9a6c369c77dd2b5a23f37ede21fea59ca0b7e9e2a8cac62acb7e67bd3e
 
 build:
-  number: 0
+  number: 1
   skip: True  # [win]  # Skip all windows for now due to numpy/scipy version pinning issues
 
 
