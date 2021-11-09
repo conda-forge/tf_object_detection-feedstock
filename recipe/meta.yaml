@@ -1,15 +1,18 @@
 {% set name = "tf_object_detection" %}
-{% set version = "2.1.0" %}
+# {% set name = "tf_models_official" %}
+{% set version = "2.6.0" %}
 
 package:
   name: {{ name|lower }}
   version: {{ version }}
 source:
-  url: https://github.com/tensorflow/models/archive/v1.13.0.tar.gz
-  sha256: 9e762d306888b2bf611a45153a30062d2f40f3afa677df9a6e93efe7bd483832
+  # url: https://github.com/tensorflow/models/archive/v1.13.0.tar.gz
+  # url: https://files.pythonhosted.org/packages/fd/f0/b255a0c227fe7d9b1e90dd234eb4832048fb8b5ed356514481bd23169ec2/tf-models-official-2.6.0.tar.gz
+  url: url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
+  sha256: 95454a9a6c369c77dd2b5a23f37ede21fea59ca0b7e9e2a8cac62acb7e67bd3e
 
 build:
-  number: 2
+  number: 3
   skip: True  # [win]  # Skip all windows for now due to numpy/scipy version pinning issues
 
 
