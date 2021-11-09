@@ -1,4 +1,4 @@
-{% set name = "tf_models_official" %}
+{% set name = "tf-models-official" %}
 {% set version = "2.6.0" %}
 
 package:
