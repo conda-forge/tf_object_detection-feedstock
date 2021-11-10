@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd research
+cd protoc
 
 protoc object_detection/protos/*.proto --python_out=.
 
