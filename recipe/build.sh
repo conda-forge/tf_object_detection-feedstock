@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-pwd
+echo 'juggling'
 cd research
 
 protoc object_detection/protos/*.proto --python_out=.
