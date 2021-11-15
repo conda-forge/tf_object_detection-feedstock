@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
-cd research
+cd official
 
-protoc object_detection/protos/*.proto --python_out=.
+protoc vision/detection/*.proto --python_out=.
 
-$PYTHON setup.py install --single-version-externally-managed --record=record.txt # solution for error: check https://github.com/conda/conda/issues/508
+$PYTHON pip install tf-models-official
