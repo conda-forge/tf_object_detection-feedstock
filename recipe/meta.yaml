@@ -16,7 +16,6 @@ build:
   number: 0
   skip: True  # [win]  # Skip all windows for now due to numpy/scipy version pinning issues
 
-
 requirements:
   build:
     - python >=3.7
@@ -54,7 +53,6 @@ about:
     The TensorFlow Object Detection API is an open source
     framework built on top of TensorFlow that makes it easy
     to construct, train and deploy object detection models
-
 
 extra:
   recipe-maintainers:
