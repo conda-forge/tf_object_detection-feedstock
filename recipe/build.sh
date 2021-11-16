@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-cd official
+# cd official
 
 # protoc vision/detection/*.proto --python_out=.
 
