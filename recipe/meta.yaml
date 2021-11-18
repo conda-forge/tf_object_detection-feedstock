@@ -14,7 +14,7 @@ source:
 
 build:
   number: 0
-  script: {{ PYTHON }} -m pip install tf-models-official
+  # script: {{ PYTHON }} -m pip install tf-models-official
   skip: True  # [win]  # Skip all windows for now due to numpy/scipy version pinning issues
 
 requirements:
