@@ -3,4 +3,4 @@
 
 # protoc vision/detection/*.proto --python_out=.
 
-$PYTHON pip -m install tf-models-official
+$PYTHON -m pip install tf-models-official
